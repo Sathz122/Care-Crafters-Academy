@@ -1,0 +1,198 @@
+<!doctype html>
+<!-- use MDN for additional information -->
+<html> 
+<head>
+<title> ABOUT PRIYANSHU </title>
+
+<!-- example of linking external CSS in head tag  -->
+<link rel="stylesheet" href="style.css">
+
+<!-- example of adding internal css style tag in html-->
+<style>
+h3 {color:rgb(228, 243, 18);}
+h2 {color:rgb(233, 73, 4);}
+table {color:rgb(0, 0, 0);}
+form {color: rgb(6, 0, 0);}
+</style>
+
+</head>
+<body background="IMG_20220709_073135.jpg">
+
+<!-- example of inline css -->
+<h1 style=color:rgb(144,36,29);> Hello Everyone I'm Priyanshu Kumar </h1>
+
+<p>I live in Bihar.And currently I am pursuring my B.tech from NIMS University,Jaipur.</p>
+<p>I am a 2 <sup>nd</sup> year student.This is my first basic code in HTML.Which I am trying to learn this from Youtube channel named "Code with Harry".I started this journey because i want to learn web development to create web-pages.</p>
+
+<!-- example of adding images in webpages  -->
+<!-- you can also add video hereby using video tag:
+<video src="video.mp4" controls autoplay loop etc></video>   -->
+<h3>Profile Pics</h3>
+<center><img src = "IMG_20220501_174206.jpg" height ="200" width = "100"></center>
+
+<!-- example of making horizontal line in html  -->
+<hr style="background-color: rgb(255, 255, 255);" size="8">
+<h3> MARKSHEET </h3>
+<br>
+
+<div>
+    <b>
+
+<!-- example of making table in html  -->
+<table border="3" style="color: rgb(255, 0, 0);">
+    <thead>
+
+    <!-- use colspan tag to extend no of column for single heading -->
+    <!-- example <th colspan="3"> name </th> -->
+            <tr>
+                <th> TERM </th>
+                <th> FROM </th>
+                <th> MARKS </th>
+                <th> YEAR </th>
+                <th> DIVISION </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> matric </td>
+                <td> R.V.S,Begusarai </td>
+                <td> 77%</td>
+                <td> 2019 </td>
+                <td> 1 <sup>st</sup> divsion </td>
+            </tr>
+            <tr>
+                <td> intermediate </td>
+                <td> R.V.S,Begusarai </td>
+                <td> 75%</td>
+                <td> 2021 </td>
+                <td> 1 <sup>st</sup> divsion </td>
+            </tr>
+            <tr>
+                <td> B.tech 1<sup>st</sup>sem</td>
+                <td> NIMS University</td>
+                <td> 79.5%</td>
+                <td> 2022 </td>
+                <td> 1 <sup>st</sup> divsion </td>
+            </tr>
+            <tr>
+                <td> B.tech 2<sup>nd</sup>sem</td>
+                <td> NIMS University </td>
+                <td> 82.9%</td>
+                <td> 2022 </td>
+                <td> 1 <sup>st</sup> divsion </td>
+            </tr>
+        </tbody>
+    </table>
+    </b>
+</div>
+<span>
+    <h3 style="color:rgb(5, 199, 47);"> Known Language</h3> 
+</span>
+
+<b>
+<table BORDER="3">
+    <thead>
+        <tr>
+            <th> Language </th>
+            <th> PYTHON </th>
+            <th> &nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp; </th>
+            <th> C Programing </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> &nbsp;&nbsp;&nbsp;From </td>
+            <td> &nbsp;&nbsp;Google </td>
+            <td> &nbsp;Youtube </td>
+            <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;college </td>
+        </tr>
+    </tbody>
+</table>
+</b>
+<br>
+<hr style="background-color: rgb(255, 255, 255);" size="8">
+
+<div>
+
+<!-- example of writing sub and sup tags -->
+    <p><u>write a equation</u></p>
+    C + O <sub>2</sub> &rarr; CO <sub>2</sub><br>
+    aX <sup>2</sup> + bX + C = 0
+</div>
+
+<hr style="background-color: rgb(255, 255, 255);" size="8">
+
+<div style="outline: auto;">
+
+<!-- example of making form,which take input from user  -->
+    <form >
+        <h2> Create Account / sign up </h2>
+        <b>
+        Username:<input style="background-color:rgba(187, 254, 237, 0.536);" type="text" placeholder ="enter your name here"><br><br>
+        E-mail:<input style="background-color:rgba(187, 254, 237, 0.536);" type="email" placeholder="enter your email"><br><br>
+        Password:<input style="background-color:rgba(187, 254, 237, 0.536);" type="password" placeholder="enter your password"><br><br>
+        Confirm Password:<input style="background-color:rgba(187, 254, 237, 0.536);" type="password" placeholder="re-enter your password"><br><br>
+        Phone no.:<input type="number" style="background-color:rgba(187, 254, 237, 0.536);"  id="num1" placeholder="enter your phone number"><br><br>
+        alternate Phone no.:<input type="number" style="background-color:rgba(187, 254, 237, 0.536);"  id="num2" placeholder="enter your phone number"><br><br>
+        
+        <!-- lable is used for making selection within whole name -->
+        <label for="identifya">
+            Select gender:<input type="radio" name="gender" id="identifya">Male ♂️
+        </label>
+        <label for="identifyb">`
+            <input type="radio" name="gender" id="identifyb">Female ♀️
+        </label>
+        <label for="identifyc">
+            <input type="radio" name="gender" id="identifyc">Others
+        </label><br>
+        <label for="reason">
+
+        <!-- use to make writing box -->
+           <textarea name="explain" id="reason" cols="30" rows="3" placeholder="explain why?"></textarea>
+        </label>
+        <br>
+
+        <!-- use select tag to make option selection in form -->
+        Where did you know about us:<select name="platform" id="from">
+            <option value="Select">Select</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Others">Others</option>
+        </select><br><br>   
+        <button style="background-color:rgb(255, 2, 2);" type="submit"value="submit"><B>SIGN UP</B></button>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.com"  target="_blank">login</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.account.google.com" target="_blank">Troubleshoot?</a>
+    </b>
+    <br>
+    <br>
+    </form>
+</div>
+
+<hr style="background-color: rgb(255, 255, 255);" size="8">
+
+<!-- example of unordered list -->
+
+    <ul type="circle" style="color: red;">
+        <li><a href="https://www.youtube.com">HOME</a> </li>
+        <li><a href="https://www.youtube.com">ABOUT</a> </li>
+        <li><a href="https://www.youtube.com">SEVICES</a> </li>
+        <li><a href="https://www.youtube.com">CONTACT US</a> </li>
+    </ul>
+
+<!-- example of ordered list-->
+<div>
+    <ol type="1" class="red">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact us</li>
+    </ol>
+</div>
+
+<span class="green"><a href="google.com">first tag</a></span><br>
+<span class="blue">second tag</span><br>
+<span class="green">third tag</span>
+</body>
+</html>
